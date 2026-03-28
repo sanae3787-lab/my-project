@@ -5,7 +5,7 @@ workers_dev = true
 account_id = "f18cfa1791ae663a1e4c0265a3e3eeb8"
 
 [vars]
-WORKER_URL = "https://line-crm-worker.line-crm-api.workers.dev"
+WORKER_URL = "https://line-crm-worker.usami-crm.workers.dev"
 
 [[d1_databases]]
 binding = "DB"
