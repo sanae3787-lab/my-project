@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import '../globals.css'
 
 export const metadata: Metadata = {
   title: 'さんすうゲーム',
@@ -11,17 +10,5 @@ export default function MathGameLayout({
 }: {
   children: React.ReactNode
 }) {
-  return (
-    <html lang="ja">
-      <body
-        style={{
-          fontFamily: "'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', system-ui, sans-serif",
-          margin: 0,
-          padding: 0,
-        }}
-      >
-        {children}
-      </body>
-    </html>
-  )
+  return <>{children}</>
 }
