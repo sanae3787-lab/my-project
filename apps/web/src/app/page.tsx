@@ -337,6 +337,19 @@ export default function DashboardPage() {
               <p className="text-xs text-gray-400">アカウント健康度ダッシュボード</p>
             </div>
           </Link>
+
+          <Link
+            href="/pokemon-game"
+            className="flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-yellow-300 hover:bg-yellow-50 transition-colors group"
+          >
+            <div className="w-8 h-8 rounded-lg flex items-center justify-center text-white shrink-0 bg-yellow-400">
+              <span className="text-base">⚡</span>
+            </div>
+            <div>
+              <p className="text-sm font-medium text-gray-900 group-hover:text-yellow-700 transition-colors">ポケモン足し算ゲーム</p>
+              <p className="text-xs text-gray-400">図鑑番号を足して遊ぼう！</p>
+            </div>
+          </Link>
         </div>
       </div>
 
